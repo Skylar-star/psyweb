@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voices</title>
+  <style>
+    body { font-family: sans-serif; margin: 2em; background: #fdfdfd; color: #333; }
+    .navbar { display: flex; justify-content: space-between; align-items: center; background: #eee; padding: 1em; }
+    .blog-post { border-bottom: 1px solid #ddd; padding: 1em 0; }
+    .blog-post h2 { margin: 0 0 0.2em 0; }
+    .blog-post p.meta { font-size: 0.9em; color: #666; }
+    .language-switcher { margin-left: auto; }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div><strong>Voices</strong></div>
+    <div class="language-switcher">
+      <select>
+        <option>中文</option>
+        <option>English</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="blog-post">
+    <h2>Blog Post Title 1</h2>
+    <p class="meta">Author • 3 min read</p>
+    <audio controls>
+      <source src="audio1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <div class="blog-post">
+    <h2>Blog Post Title 2</h2>
+    <p class="meta">Author • 5 min read</p>
+    <audio controls>
+      <source src="audio2.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</body>
+</html>
